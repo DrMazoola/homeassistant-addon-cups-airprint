@@ -1,7 +1,8 @@
 # homeassistant addon cups airprint, forked and modified by DrMazoola
 ## Modifications:
 * Added Canon MF8380cdw drivers and requried packages for amd64. (Hacky, did not build out file path options for other processors.)   
-* Added localization to get US standard papaer sizes (ex. letter & legal) to show up in AirPrint (it defaulted to A4 & A5)  
+* Added localization to get US standard papaer sizes (ex. letter & legal) to show up in AirPrint (it defaulted to A4 & A5)
+* CUPs Admin page at <home_assistant_ip>:631
 
 Many thanks to Zajac!
 
