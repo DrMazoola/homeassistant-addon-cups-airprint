@@ -1,3 +1,10 @@
+# homeassistant addon cups airprint, forked and modified by DrMazoola
+Added Canon MF8380cdw drivers and requried packages for amd64.
+
+Many thanks to Zajac!
+
+Original Test...
+
 # homeassistant addon cups airprint
 CUPS addon with working Avahi in reflector mode 
 
