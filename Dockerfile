@@ -6,6 +6,15 @@ LABEL io.hass.version="1.5" io.hass.type="addon" io.hass.arch="aarch64|amd64"
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
+# Set locale environment variables and generate locales
+ENV LANG=en_US.UTF-8 \
+    LC_ALL=en_US.UTF-8 \
+    LC_PAPER=en_US.UTF-8
+RUN apt-get update && apt-get install -y locales \
+    && locale-gen en_US.UTF-8 \
+    && dpkg-reconfigure locales \
+    && apt-get clean
+
 RUN apt update \
     && apt install -y --no-install-recommends \
         sudo \
