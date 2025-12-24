@@ -50,7 +50,7 @@ RUN cd /tmp \
 RUN cd /tmp \
   && if [ "$(arch)" = 'x86_64' ]; then ARCH="amd64"; else ARCH="arm64"; fi \
   && curl http://gdlp01.c-wss.com/gds/6/0100009236/22/linux-UFRII-drv-v620-us-01.tar.gz -o mf8380cdw.tar.gz \
-  && tar -xvf ./mf8380cdw.tar.gz linux-UFRII-drv-v620-us/ARM64/Debian/cnrdrvcups-ufr2-us_6.20-1.01_${ARCH}.deb \
+  && tar -xvf ./mf8380cdw.tar.gz linux-UFRII-drv-v620-us/x64/Debian/cnrdrvcups-ufr2-us_6.20-1.01_${ARCH}.deb \
   && mv linux-UFRII-drv-v620-us/ARM64/Debian/cnrdrvcups-ufr2-us_6.20-1.01_${ARCH}.deb cnrdrvcups-ufr2.deb \
   && apt install ./cnrdrvcups-ufr2.deb
 
