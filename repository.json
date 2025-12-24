@@ -1,5 +1,5 @@
 {
-  "name": "Home Assistant CUPS + Airprint Add-On repository",
-  "url": "https://github.com/zajac-grzegorz/homeassistant-addon-cups-airprint",
-  "maintainer": "Grzegorz Zajac"
+  "name": "Home Assistant CUPS + Airprint Add-On repository DrMazoola Fork",
+  "url": "https://github.com/DrMazoola/homeassistant-addon-cups-airprint.git",
+  "maintainer": "DrMazoola"
 }
