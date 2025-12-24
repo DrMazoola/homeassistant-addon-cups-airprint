@@ -36,6 +36,9 @@ RUN apt update \
         bash-completion \
         procps \
         whois \
+        cups-bsd \
+        libgtk-3-0 \ 
+        libgtk-3-0t64 \
     && apt clean -y \
     && rm -rf /var/lib/apt/lists/*
 
